@@ -70,8 +70,8 @@ return data;
           <Button type='submit'variant='contained'sx={{borderRadius:3,marginTop:3}}color='warning'>Submit</Button>
           <Button onClick={()=>setIsSignup(!isSignup)} sx={{borderRadius:3,marginTop:3}}>
             Change To {isSignup?'Login':'Signup'}</Button>
-            <b style={{color:'blue',margin:'5px'}}>UserName:  hellouser@gmail.com</b>
-            <b style={{color:'blue',margin:'5px'}}>Password:  hellouser123</b>
+            <p style={{color:'blue',margin:'5px',fontFamily:'monospace',fontSize:'18px'}}>UserName:  hellouser@gmail.com</p>
+            <p style={{color:'blue',margin:'5px',fontFamily:'monospace',fontSize:'18px'}}>Password:  hellouser123</p>
       </Box>
     </form>
     </div>
