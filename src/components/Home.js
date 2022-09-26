@@ -5,8 +5,7 @@ const Home = () => {
     <div className="home">
       Hai 👋 Welcome To BlogApp If you Already have an account Please Login If You Are A New 
       User Please SignUp 😊
-      <p style={{margin:'15px',fontFamily:'monospace'}}>UserName : hellouser@gmail.com</p>
-      <p style={{margin:'15px',fontFamily:'monospace'}}>Password : hellouser123</p>
+     
     </div>
   )
 }
