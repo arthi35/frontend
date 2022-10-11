@@ -1,8 +1,49 @@
-.home{
-    margin-top: 50px;
-    background-color:black;
-    color: whitesmoke;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.hometext{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:yellow;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    /* font-family: 'Times New Roman', Times, serif */
+    font-family: 'Montserrat', sans-serif;
+    width:99%;
+    height:100vh;
+     background-image: url("https://zologie.com/wp-content/uploads/zologie-social-media-animations-video-concept.png");
+    }
+    .link{
+        text-decoration: none;
+    }
+     
+     
+     
+    .link:hover {
+        background-color:aqua;
+      }
     
-}
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.home{
+    margin-top: 10px;
+    background-color:black;
+    color:aqua;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+} */
+/* .home{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    background-image: url('https://cdn.dribbble.com/users/1968910/screenshots/15522441/blog_transitions_concept.png?compress=1&resize=400x300');
+} */

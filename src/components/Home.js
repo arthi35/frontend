@@ -1,13 +1,18 @@
+ 
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../App.css"
+ 
 const Home = () => {
   return (
-    <div className="home">
-      Hai 👋 Welcome To BlogApp If you Already have an account Please Login If You Are A New 
-      User Please SignUp 😊
-     
+    <div className='home'>
+      <div className='homebg'>
+      <h1 className='hometext'><Link className='link' to ="/auth">
+        Welcome to my blog app if you are new to my blog click here🤞
+        </Link></h1>
+      </div>
     </div>
   )
 }
-
-export default Home
+ 
+export default Home;
